@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krisha Krishi Store - Products</title>
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #ecc3c3;
+            color: #333;
+        }
+        
+        /* Header Section */
+        header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(19, 17, 17);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+        header {
+            background-color: #caa097;
+            color: rgb(14, 13, 13);
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2em;
+            margin-bottom: 10px;
+        }
+       
+        .search-bar {
+            max-width: 600px;
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+        }
+
+        .search-bar input[type="text"] {
+            width: 80%;
+            padding: 10px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+
+        .search-bar button {
+            padding: 10px 20px;
+            font-size: 1em;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 0 5px 5px 0;
+            cursor: pointer;
+        }
+
+        /* Main Content */
+        .product-container {
+            max-width: 1200px;
+            margin: 20px auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 0 20px;
+        }
+
+        .product-card {
+            background-color: white;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .product-name {
+            font-size: 1.2em;
+            color: #0c0b0a;
+            margin: 10px 0;
+        }
+
+        .product-quality {
+            color: #666;
+            font-size: 0.9em;
+            margin: 5px 0;
+        }
+
+        .purchase-btn {
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .purchase-btn:hover {
+            background-color: #e04028;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Krisha Krishi Store - Products</h1>
+        <div class="search-bar">
+            <input type="text" placeholder="Search for products...">
+            <button>Search</button>
+        </div>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="kri5.html">Home</a></li>
+                    <li><a href="kripro2.html">Products</a></li>
+                    <li><a href="kri5abo.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <div class="product-container">
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="download (1).jfif" alt="Product 1">
+            <h2 class="product-name">kisan iron farm</h2>
+            <p class="product-quality">High Quality</p>
+            <p>₹47000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="download.jfif" alt="Product 2">
+            <h2 class="iron farm">Iron farm</h2>
+            <p class="product-quality is best for agriculture">Premium Quality</p>
+            <p>₹45000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="images.jfif" alt="Product 3">
+            <h2 class="Field Iron Farm">Fieldking Iron Farm</h2>
+            <p class="product-quality">Durable Quality</p>
+            <p>₹47000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="images (3).jfif" alt="Product 4">
+            <h2 class="Potato Planter">Mild steel Rotatry Dics Harrow</h2>
+            <p> automatic</p>
+            <p class="product-quality">High Quality</p>
+    
+            <P>₹145000</P>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card">
+            <img src="images (4).jfif" alt="Product 5">
+            <h2 class="product-name">Potato Planter</h2>
+            <p class="product-quality">Excellent Quality</p>
+            <P>₹250000</P>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Additional product cards (fill out up to 20 items) -->
+
+        <!-- Product Card 20 -->
+        <div class="product-card">
+            <img src="images (5).jfif" alt="Product 20">
+            <h2 class="product-name">Patiala Combine Harvester</h2>
+            <p class="product-quality">Top Quality</p>
+            <p>₹450000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="images (6).jfif" alt="Product 1">
+            <h2 class="product-name">Plough (land Leveler)</h2>
+            <p class="product-quality">High Quality</p>
+            <P>₹11000</P>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="images (7).jfif" alt="Product 2">
+            <h2 class="product-name">Farm Machinery Equipments</h2>
+            <p class="product-quality">Premium Quality</p>
+            <P>₹75000</P>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="images (8).jfif" alt="Product 3">
+            <h2 class="product-name">Farm Diseal Machinery</h2>
+            <p class="product-quality">Durable Quality</p>
+            <P>₹150000</P>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="images (9).jfif" alt="Product 4">
+            <h2 class="product-name">Rotabetor Machinery</h2>
+            <p class="product-quality">High Quality</p>
+            <p>₹86000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card">
+            <img src="images (10).jfif" alt="Product 5">
+            <h2 class="product-name">Mahindra Straw Reaper Machinery</h2>
+            <p class="product-quality">Excellent Quality</p>
+            <p>₹35000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Additional product cards (fill out up to 20 items) -->
+
+        <!-- Product Card 20 -->
+        <div class="product-card">
+            <img src="images (20).jfif" alt="Product 20">
+            <h2 class="product-name">Agricultural Harvester Machinery</h2>
+            <p class="product-quality">Top Quality</p>
+            <p>₹112000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="images (21).jfif" alt="Product 1">
+            <h2 class="product-name">Super Seeder- Shaktiman farm Machinery</h2>
+            <p class="product-quality">High Quality</p>
+            <p>₹56000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="images (13).jfif" alt="Product 2">
+            <h2 class="product-name">Super seeder - Shaktiman farm Machinery </h2>
+            <p class="product-quality">Premium Quality</p>
+            <p>₹25000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="images (1).jfif" alt="Product 3">
+            <h2 class="product-name"> agriculture plough</h2>
+            <p class="product-quality">Durable Quality is good</p>
+            <p class="product-price">₹55000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="images.jfif" alt="Product 4">
+            <h2 class="product-name"> kisan agriculture plough</h2>
+            <p class="product-quality">High Quality</p>
+            <p class="product-price">₹67000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card">
+            <img src="images (2).jfif" alt="Product 5">
+            <h2 class="product-name"> agriculture implements rotabetor</h2>
+            <p class="product-quality">Excellent Quality</p>
+            <p class="product-price">₹115000 </p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Additional product cards (fill out up to 20 items) -->
+
+        <!-- Product Card 20 -->
+        <div class="product-card">
+            <img src="images (14).jfif" alt="Product 20">
+            <h2 class="product-name">Xtra power 7HP weeder Machinery</h2>
+            <p class="product-quality">Top Quality</p>
+            <p>₹95000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+        <!-- Product Card 1 -->
+        <div class="product-card">
+            <img src="images (15).jfif" alt="Product 1">
+            <h2 class="product-name">Green Harvester chopper Machinery</h2>
+            <p class="product-quality">High Quality</p>
+            <p>₹135000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 2 -->
+        <div class="product-card">
+            <img src="images (17).jfif" alt="Product 2">
+            <h2 class="product-name">Agricultural  machinary</h2>
+            <p class="product-quality">Premium Quality</p>
+            <p>₹750000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 3 -->
+        <div class="product-card">
+            <img src="images (16).jfif" alt="Product 3">
+            <h2 class="product-name">straw Reaper Machinery</h2>
+            <p class="product-quality">Durable Quality</p>
+            <p>₹75000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 4 -->
+        <div class="product-card">
+            <img src="images (18).jfif" alt="Product 4">
+            <h2 class="product-name">Agricultural Rotatry Dics Machinery</h2>
+            <p class="product-quality">High Quality</p>
+            <p>₹45000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Product Card 5 -->
+        <div class="product-card">
+            <img src="images (19).jfif" alt="Product 5">
+            <h2 class="product-name">Agricultural Rotatry Disc</h2>
+            <p class="product-quality">Excellent Quality</p>
+            <p>₹56000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+
+        <!-- Additional product cards (fill out up to 20 items) -->
+
+        <!-- Product Card 20 -->
+        <div class="product-card">
+            <img src="images (21).jfif" alt="Product 20">
+            <h2 class="product-name"> Seeder Machinery</h2>
+            <p class="product-quality">Top Quality</p>
+            <p>₹35000</p>
+            <button class="purchase-btn">Purchase</button>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Address: Kendua Mor, Nawada</p>
+        <p>Contact: 9430410778, 7488095803</p>
+        <p>Email: info@krishakrishi.com</p>
+    </footer>
+
+</body>
+</html>

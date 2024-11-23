@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Krisha Krishi Store</title>
+    <style>
+        /* General Styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        
+        body {
+            background-color: #f3d0d0;
+            color: #333;
+        }
+        
+        /* Header Section */
+        header {
+            background-color: #ceada6;
+            color: rgb(226, 171, 171);
+            padding: 00px;
+            text-align: center;
+
+        }
+        
+        .header-container {
+            max-width: 800px;
+            margin: auto;
+            padding: 00px;
+        }
+
+        header img {
+            max-width: 800px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            font-style:calc(2);
+            color: #050505;
+        }
+        header h1 {
+            font-size: 0.5;
+
+        }
+
+        header p {
+            margin-top: 2px;
+            font-size: 0.2em;
+            color: #050505;
+        
+        }
+        nav ul {
+    list-style-type:armenian;
+    display: flex;
+}
+
+nav ul li {
+    margin: 15px;
+}
+
+nav ul li a {
+    color: rgb(12, 10, 10);
+    text-decoration: none;
+    font-size: 1.2em;
+}
+        
+        /* Main Content */
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: rgb(238, 216, 216);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        
+        .customer-details h2 {
+            font-size: 2em;
+            color: #050505;
+            margin-bottom: 10px;
+        }
+        
+        .form-group {
+            margin-bottom: 15px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 10px;
+            font-size: 0.5em;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .submit-btn {
+            background-color: #ff5733;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 1em;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        .submit-btn:hover {
+            background-color: #e04028;
+        }
+
+        /* Customer Care Section */
+        .customer-care-section {
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #ffeedb;
+            border-radius: 10px;
+        }
+
+        .customer-care-section h2 {
+            font-size: 1.8em;
+            color: #0f0e0e;
+            margin-bottom: 10px;
+        }
+
+        .faq-item {
+            margin-bottom: 10px;
+        }
+
+        .faq-item h3 {
+            font-weight: bold;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .faq-item p {
+            margin-left: 10px;
+            color: #666;
+        }
+        
+        /* Footer Section */
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        footer p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="header-container">
+            <h1><b><i>Krisha Krishi Store</i></b>
+                <img src="Tillage.png" alt="Krisha Krishi Store" width="900" hight="300">
+            <h1>"Your trusted partner in agricultural excellence!"</h1>
+        </div>
+        <div class="header-container">
+            <nav>
+                <ul>
+                    <li><a href="kri5.html">Home</a></li>
+                    <li><a href="kripro2.html">Products</a></li>
+                    <li><a href="kri5abo.html">About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        <!-- Customer Details Form -->
+        <section class="customer-details">
+            <h2>Customer Details</h2>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="district">District</label>
+                    <input type="text" id="district" name="district" required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required>
+                </div>
+                <div class="form-group">
+                    <label for="aadhaar">Aadhaar Card Number</label>
+                    <input type="text" id="aadhaar" name="aadhaar" maxlength="12" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" name="phone" maxlength="10" required>
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </section>
+
+        <!-- Customer Care Section -->
+        <section class="customer-care-section">
+            <h2>Customer Care FAQs</h2>
+            <!-- Repeat this FAQ item for each question -->
+            <div class="faq-item">
+                <h3>Q1: What types of agricultural equipment do you offer?</h3>
+                <p>We offer rickshaws, cultivators, straw reapers, and many more items tailored for farm needs.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q2: Do your products come with a warranty?</h3>
+                <p>Yes, all our products include a manufacturer’s warranty.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Q3: How can I contact Krisha Krishi Store?</h3>
+                <p>Our contact details are provided in the footer section below.</p>
+            </div>
+            <!-- Add more FAQ items as needed, up to 20-50 questions -->
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Address: Kendua Mor, Nawada</p>
+        <p>Contact: 9430410778, 7488095803</p>
+        <p>Email: info@krishakrishi.com</p>
+    </footer>
+
+</body>
+</html>

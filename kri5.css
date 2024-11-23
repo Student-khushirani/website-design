@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7c3c3;
+}
+
+/* Header Section */
+header {
+    background: #a17f78;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+/* Diwali Offer Section */
+.diwali-offer {
+    background-color: #e9b1b1;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.diwali-offer h2 {
+    font-size: 2em;
+    color: #181717;
+}
+
+.diwali-offer p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.diwali-offer img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.diwali-offer blockquote {
+    font-style: italic;
+    color: #555;
+    margin: 15px 0;
+}
+
+.button {
+    background-color: #ff5733;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.button:hover {
+    background-color: #c0392b;
+}
+
+/* Product Gallery Section */
+.products {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.products h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.product-item {
+    background-color: #a76f6f;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+}
+
+.product-item img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-item p {
+    margin-top: 10px;
+    font-size: 1.1em;
+    color: #333;
+}
+
+/* Customer Reviews Section */
+.reviews {
+    background-color: #eccdcd;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.reviews h2 {
+    font-size: 2em;
+    color: #ff5733;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    margin-bottom: 15px;
+    font-style: italic;
+    color: #555;
+}
+
+.review span {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: rgb(207, 195, 195);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+footer h3 {
+    margin-top: 10px;
+}
+
+footer form {
+    margin-top: 10px;
+}
+
+footer input[type="text"] {
+    padding: 8px;
+    width: 70%;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+footer button {
+    padding: 8px 15px;
+    background-color: #ff5733;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer button:hover {
+    background-color: #c0392b;
+}
